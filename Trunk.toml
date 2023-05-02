@@ -1,0 +1,11 @@
+[build]
+target = "index.html"
+dist = "dist"
+release = false
+public_url = "/threejs-test/"
+
+[watch]
+watch = ["./index.html", "src/", "style/", "static/"]
+
+[clean]
+dist = "dist"
